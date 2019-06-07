@@ -144,7 +144,7 @@ void draw () {
     //when the coin location reaches <= 215 it's true so coininsert sound will play
     if (coininthere == false) {
     playSound(getSound("coinsound.mp3"));
-    coinsound.play();
+    coininsert.play();
     }
     coininthere = true;
 
