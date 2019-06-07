@@ -1,8 +1,3 @@
-//import sound library and create sound files 
-//import processing.sound.*;
-//SoundFile arcademusic;
-//SoundFile coininsert;
-
 //create image of fortune teller
 PImage fortuneteller;
 
@@ -76,11 +71,7 @@ void setup () {
   size (500, 700);
 
 //load background music sound file and put into a loop
-//arcademusic = new SoundFile(this, "arcademusic.mp3");
-//arcademusic.loop();
-
-//load coin insert sound
-//coininsert = new SoundFile(this, "coinsound.mp3");
+arcademusic.loop();
 
   //load font for sketch, Silom
   PFont fttext = createFont("Silom", 1);
@@ -153,7 +144,7 @@ void draw () {
     //when the coin location reaches <= 215 it's true so coininsert sound will play
     if (coininthere == false) {
     playSound(getSound("coinsound.mp3"));
-     //coininsert.play();
+    coininsert.play();
     }
     coininthere = true;
 
