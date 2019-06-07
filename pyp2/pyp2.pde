@@ -71,6 +71,7 @@ void setup () {
   size (500, 700);
 
 //load background music sound file and put into a loop
+arcademusic = loadSound('arcademusic.mp3');
 arcademusic.loop();
 
   //load font for sketch, Silom
