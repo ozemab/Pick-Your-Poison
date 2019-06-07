@@ -72,7 +72,7 @@ void setup () {
 
 //load background music sound file and put into a loop
 arcademusic = loadSound('arcademusic.mp3');
-arcademusic.loop();
+arcademusic.play();
 
   //load font for sketch, Silom
   PFont fttext = createFont("Silom", 1);
