@@ -160,7 +160,7 @@ void draw () {
     pg.beginDraw();
     fill(255);
     rect(77.3, 180.3, 223.5, 154.5);
-    filter(BLUR, 1.3);
+    filter(BLUR, 1.4);
     noStroke();
     fill(67, 138, 255);
     rect (77.3, 180.3, 218.5, 149.5);
